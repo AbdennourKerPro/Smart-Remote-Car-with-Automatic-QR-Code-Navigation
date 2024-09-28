@@ -46,22 +46,6 @@ def pair():
     
     return False
 
-def detect():
-    # Capturer la vidéo depuis la webcam (remplacez 0 par le numéro de votre caméra)
-    cap = cv2.VideoCapture(0)
-
-    # Lire le cadre de la caméra
-    ret, frame = cap.read()
-    # Détecter les marqueurs ARUCO
-    corners, ids, rejectedCandidates = detector.detectMarkers(frame)
-
-    if len(corners) > 0:
-        
-        for markerCorner in corners:
-            return True
-        
-    
-    return False
 
 
 def distance():

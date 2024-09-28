@@ -20,7 +20,7 @@ def backward(speed1,speed2,t):
     stop_tot()
 
 def left(speed, t):
-    kit.motor1.throttle = speed+0.05
+    kit.motor1.throttle = speed
     kit.motor2.throttle = -speed
     time.sleep(t)
     stop_tot()
