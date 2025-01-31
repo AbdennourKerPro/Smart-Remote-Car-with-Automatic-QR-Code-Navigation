@@ -15,13 +15,15 @@ This project aims to develop a **remote-controlled car** that can:
 The project consists of multiple components:  
 
 - **Hardware**:  
-  - Microcontroller (e.g., Raspberry Pi, Arduino, ESP32)  
+  - Microcontroller (e.g., Raspberry Pi in our case)  
   - Camera module for QR code detection  
-  - Motor drivers and sensors for navigation  
-  - Wireless module for remote control  
+  - Motor drivers and wheels ofc :-)
+  - a thin wooden board cut to fit the Raspberry Pi
+  - Wireless module for remote control
+  - aruco markers, mounts (chev.me/arucogen)
 
 - **Software**:  
-  - QR code recognition using OpenCV or ZBar  
+  - QR code recognition using OpenCV  
   - Path planning and decision-making logic  
   - Web or mobile interface for manual control (HTML/CSS/Javascript)
 
