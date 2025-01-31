@@ -1,5 +1,34 @@
-# Remote controlled and automated car
+# 🚗 Smart Remote Car with Automatic QR Code Navigation
 
-### The material presented in this repository is part of a school project I carried out in College. We created, using a Raspberry Pi and Python, a remote-controlled car with an automatic mode.
+Welcome to the **Smart Remote Car** project! This repository contains the code and documentation for a remote-controlled car equipped with an **automatic driving mode** that scans and processes **QR codes** along its journey.  
 
-### I uploaded the Python code controlling the motors through the Raspberry Pi, the HTML/Javascript code for the web page controlling the robot and the web server managing communication between the interface and the Raspberry Pi.
+## 🎯 Project Overview
+
+This project aims to develop a **remote-controlled car** that can:  
+- Be manually controlled via a remote interface  
+- Switch to an **autonomous mode**, navigating based on QR codes  
+- Detect, read, and interpret QR codes to make driving decisions  
+- Log and process QR data for further analysis  
+
+## 🏗️ System Architecture
+
+The project consists of multiple components:  
+
+- **Hardware**:  
+  - Microcontroller (e.g., Raspberry Pi, Arduino, ESP32)  
+  - Camera module for QR code detection  
+  - Motor drivers and sensors for navigation  
+  - Wireless module for remote control  
+
+- **Software**:  
+  - QR code recognition using OpenCV or ZBar  
+  - Path planning and decision-making logic  
+  - Web or mobile interface for manual control (HTML/CSS/Javascript)
+
+## 📂 Repository Structure  
+
+```plaintext
+📦 Smart-Remote-Car
+ ├── 📁 Parcours           # Code running on the car’s microcontroller
+ ├── 📁 Interface      # Remote control dashboard
+ ├── README.md             # You are here!
