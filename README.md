@@ -29,6 +29,8 @@ The project consists of multiple components:
 
 ## 📂 Repository Structure  
 
+**Link to the repository :** https://github.com/AbdennourKerPro/Smart-Remote-Car-with-Automatic-QR-Code-Navigation
+
 ```plaintext
 📦 Smart-Remote-Car
  ├── 📁 Parcours           # Code running on the car’s microcontroller
