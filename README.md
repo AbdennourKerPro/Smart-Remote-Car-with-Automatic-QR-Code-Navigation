@@ -20,7 +20,7 @@ The project consists of multiple components:
   - Motor drivers and wheels ofc :-)
   - a thin wooden board cut to fit the Raspberry Pi
   - Wireless module for remote control
-  - aruco markers, mounts (chev.me/arucogen)
+  - aruco markers, mounts (https://www.chev.me/arucogen)
 
 - **Software**:  
   - QR code recognition using OpenCV  
