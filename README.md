@@ -33,6 +33,6 @@ The project consists of multiple components:
 
 ```plaintext
 📦 Smart-Remote-Car
- ├── 📁 Parcours           # Code running on the car’s microcontroller
+ ├── 📁 Parcours Automatique          # Code running on the car’s microcontroller
  ├── 📁 Interface      # Remote control dashboard
  ├── README.md             # You are here!
